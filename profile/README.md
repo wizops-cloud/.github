@@ -1,91 +1,73 @@
-<div align="center">
+<p align="center">
+  <a href="https://wizops.fr"><img alt="WizOps — Infogérance Kubernetes & Cloud, de la conception à l'exploitation 24/7. Startups, PME et secteur public : on construit votre infra 100 % en code, puis on l'opère." src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/hero.svg" width="100%"></a>
+</p>
 
-# WizOps
+<p align="center">
+  <a href="https://cal.com/julien-gourmelen-wizops"><img alt="Réserver un audit" src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/btn-rdv.svg" height="46"></a>
+  &nbsp;
+  <a href="https://wizops.fr"><img alt="wizops.fr" src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/btn-site.svg" height="46"></a>
+</p>
 
-### Infogérance Kubernetes & Cloud — de la conception à l'exploitation 24/7
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/stats-dark.svg"><img alt="24/7 support et monitoring · 100+ projets livrés · 15+ ans d'ingénierie Cloud & DevOps · 46 avis clients sur Malt, 100 % de satisfaction" src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/stats-light.svg" width="100%"></picture>
+</p>
 
-DevOps, SRE et IA depuis plus de 15 ans, pour les startups, les PME et le secteur public.
-On construit votre infra **100 % en code**, puis on l'opère. **Sans changement d'interlocuteur.**
+### Ce que nous faisons
 
-[![Site](https://img.shields.io/badge/wizops.fr-0B5563?style=for-the-badge&logo=googlechrome&logoColor=white)](https://wizops.fr)
-[![Prendre rendez-vous](https://img.shields.io/badge/Prendre_rendez--vous-F97316?style=for-the-badge&logo=googlecalendar&logoColor=white)](https://cal.com/julien-gourmelen-wizops)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/67925589)
-[![Email](https://img.shields.io/badge/contact@wizops.fr-555?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:contact@wizops.fr)
+<p align="center">
+  <a href="https://wizops.fr/services"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/svc-infogerance-dark.svg"><img alt="Infogérance 24/7 : votre infra conçue, puis opérée par la même équipe. Supervision et astreinte, sécurité, FinOps, multi-cloud." src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/svc-infogerance-light.svg" width="100%"></picture></a>
+</p>
 
-</div>
+<p align="center">
+  <a href="https://wizops.fr/services/kubernetes"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/svc-kubernetes-dark.svg"><img alt="Kubernetes & conteneurs : des clusters qui tiennent la charge" src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/svc-kubernetes-light.svg" width="49%"></picture></a>
+  <a href="https://wizops.fr/services/migration-cloud"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/svc-migration-dark.svg"><img alt="Migration Cloud : changer de cloud sans couper" src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/svc-migration-light.svg" width="49%"></picture></a>
+</p>
+<p align="center">
+  <a href="https://wizops.fr/services/infrastructure-as-code"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/svc-iac-dark.svg"><img alt="Infrastructure as Code : une infra 100 % en code" src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/svc-iac-light.svg" width="49%"></picture></a>
+  <a href="https://wizops.fr/services/observabilite"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/svc-observabilite-dark.svg"><img alt="Observabilité : voir les incidents avant vos clients" src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/svc-observabilite-light.svg" width="49%"></picture></a>
+</p>
+<p align="center">
+  <a href="https://wizops.fr/services/audit-infrastructure"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/svc-audit-dark.svg"><img alt="Audit d'infrastructure : savoir exactement où vous en êtes" src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/svc-audit-light.svg" width="49%"></picture></a>
+  <a href="https://wizops.fr/services/devops-ia-aiops"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/svc-aiops-dark.svg"><img alt="DevOps & IA (AIOps) : l'IA qui investigue vos alertes" src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/svc-aiops-light.svg" width="49%"></picture></a>
+</p>
 
----
+### Notre méthode
 
-## En chiffres
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/method-dark.svg"><img alt="1. Audit : on cartographie l'existant. 2. Build : on construit ou reprend votre infra en code. 3. Run 24/7 : on opère et on assure l'astreinte. 4. Amélioration continue de la fiabilité et des coûts." src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/method-light.svg" width="100%"></picture>
+</p>
 
-| **24/7** | **100+** | **15+ ans** | **46 avis 5★** |
-|:---:|:---:|:---:|:---:|
-| Support & monitoring, 365 j/an | Projets livrés | D'ingénierie Cloud & DevOps | 100 % de satisfaction sur Malt |
+### Notre stack
 
-## Ce que nous faisons
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/stack-dark.svg"><img alt="Kubernetes, Helm, Argo CD, Docker · AWS, Azure, GCP, Scaleway, OVHcloud · Terraform, Ansible, GitHub Actions, GitLab CI · Grafana, Prometheus" src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/stack-light.svg" width="100%"></picture>
+</p>
 
-| | Service | Pour vous |
-|---|---|---|
-| ☸️ | **[Kubernetes & conteneurs](https://wizops.fr/services/kubernetes)** | Des clusters EKS, AKS, GKE, Kapsule ou on-premise fiables, en GitOps avec Helm et Argo CD |
-| 🚚 | **[Migration Cloud](https://wizops.fr/services/migration-cloud)** | Vers le Cloud ou entre providers, avec un minimum d'interruption |
-| 🧱 | **[Infrastructure as Code](https://wizops.fr/services/infrastructure-as-code)** | Terraform, Ansible et CI/CD : une infra reproductible, versionnée et revue |
-| 📈 | **[Observabilité](https://wizops.fr/services/observabilite)** | Grafana, Prometheus, Loki, Tempo et Mimir : on voit les incidents avant vos utilisateurs |
-| 🔍 | **[Audit d'infrastructure](https://wizops.fr/services/audit-infrastructure)** | Architecture, sécurité, performance et coûts, avec un plan d'action concret |
-| 🤖 | **[DevOps & IA (AIOps)](https://wizops.fr/services/devops-ia-aiops)** | Des agents IA qui investiguent vos alertes et proposent la cause racine |
-| 💶 | **FinOps & sécurité** | Rightsizing, gouvernance, hardening et conformité (SecNumCloud, on-premise) |
+### Nos produits & l'open source
 
-## Notre stack
+<p align="center">
+  <a href="https://wizstatus.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/prod-wizstatus-dark.svg"><img alt="WizStatus : monitoring de sites, d'API et de services, avec pages de statut" src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/prod-wizstatus-light.svg" width="49%"></picture></a>
+  <a href="https://mongoadmin.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/prod-mongoadmin-dark.svg"><img alt="MongoAdmin : client MongoDB desktop natif, écrit en Rust" src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/prod-mongoadmin-light.svg" width="49%"></picture></a>
+</p>
+<p align="center">
+  <a href="https://github.com/wizops-cloud/prometheus-ovh-exporter"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/oss-ovh-exporter-dark.svg"><img alt="prometheus-ovh-exporter : exporter Prometheus open source pour OVHcloud" src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/oss-ovh-exporter-light.svg" width="100%"></picture></a>
+</p>
 
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?logo=helm&logoColor=white)
-![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?logo=argo&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?logo=gitlab&logoColor=white)
-<br>
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white)
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?logo=googlecloud&logoColor=white)
-![Scaleway](https://img.shields.io/badge/Scaleway-4F0599?logo=scaleway&logoColor=white)
-![OVHcloud](https://img.shields.io/badge/OVHcloud-123F6D?logo=ovh&logoColor=white)
-<br>
-![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
-![Loki](https://img.shields.io/badge/Loki-F2CC0C?logo=grafana&logoColor=black)
-![Wazuh](https://img.shields.io/badge/Wazuh-3595F9?logo=wazuh&logoColor=white)
+### Ils nous font confiance
 
-## Nos produits
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/clients-dark.svg"><img alt="Caast.TV, Didask, Epiconcept, Toha, F2R2, Okeiro, UserAdgents, Tekyn, Process Metronome, Greenmetrics, Keepen" src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/clients-light.svg" width="100%"></picture>
+</p>
 
-- **[WizStatus](https://wizstatus.com)** : monitoring de sites, d'API et de services, avec alertes en temps réel et pages de statut. Vos retours sont les bienvenus sur [wizstatus-feedback](https://github.com/wizops-cloud/wizstatus-feedback).
-- **[MongoAdmin](https://mongoadmin.dev)** : un client MongoDB desktop natif, écrit en Rust, avec une offre gratuite. Téléchargements sur [mongoAdmin-releases](https://github.com/wizops-cloud/mongoAdmin-releases).
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/quote-didask-dark.svg"><img alt="« Merci à Julien pour tout son accompagnement qui nous a permis de déployer notre solution SaaS dans deux contextes particuliers (on premise et SecNumCloud). » Arnaud, CTO de Didask" src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/quote-didask-light.svg" width="49%"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/quote-toha-dark.svg"><img alt="« Il est un expert dévoué, curieux, pragmatique qui saura apporter des solutions simples à des problèmes complexes. » Gabriel, CTO de Toha" src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/quote-toha-light.svg" width="49%"></picture>
+</p>
 
-## Open source
+<p align="center">
+  <a href="https://cal.com/julien-gourmelen-wizops"><img alt="Un projet Kubernetes, une migration ou besoin d'astreinte ? Réservez 30 minutes avec Julien." src="https://raw.githubusercontent.com/wizops-cloud/.github/main/profile/assets/cta.svg" width="100%"></a>
+</p>
 
-- **[prometheus-ovh-exporter](https://github.com/wizops-cloud/prometheus-ovh-exporter)** : un exporter Prometheus pour OVHcloud. Facturation, consommation, quotas, instances, stockage et savings plans, prêts pour vos dashboards Grafana et votre suivi FinOps.
-
-## On partage ce qu'on sait
-
-[![Blog](https://img.shields.io/badge/Blog-300%2B_articles_DevOps_%26_Cloud-14918F?style=for-the-badge&logo=rss&logoColor=white)](https://wizops.fr/blog)
-
-Kubernetes, Terraform, observabilité, sécurité, FinOps, IA : plus de 300 articles techniques en français, tirés de nos missions.
-
-## Ils nous font confiance
-
-Caast.TV · Didask · Epiconcept · Toha · F2R2 · Okeiro · UserAdgents · Tekyn · Process Metronome · Greenmetrics · Keepen
-
-> *« Merci à Julien pour tout son accompagnement qui nous a permis de déployer notre solution SaaS dans deux contextes particuliers (on premise et SecNumCloud). […] Le résultat est documenté. »*
-> **Arnaud, CTO de Didask**
-
-> *« Il est un expert dévoué, curieux, pragmatique qui saura apporter des solutions simples à des problèmes complexes. »*
-> **Gabriel, CTO de Toha**
-
----
-
-<div align="center">
-
-**Un projet Kubernetes, une migration ou besoin d'astreinte ?**
-[**Réservez 30 min avec Julien →**](https://cal.com/julien-gourmelen-wizops)
-
-</div>
+<p align="center">
+  <a href="https://wizops.fr">wizops.fr</a> · <a href="https://wizops.fr/blog">Blog : 300+ articles DevOps & Cloud</a> · <a href="https://www.linkedin.com/company/67925589">LinkedIn</a> · <a href="mailto:contact@wizops.fr">contact@wizops.fr</a>
+</p>
