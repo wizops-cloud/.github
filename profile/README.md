@@ -7,7 +7,7 @@
 DevOps, SRE et IA depuis plus de 15 ans, pour les startups, les PME et le secteur public.
 On construit votre infra **100 % en code**, puis on l'opère. **Sans changement d'interlocuteur.**
 
-[![Site](https://img.shields.io/badge/wizops.fr-0B4F5C?style=for-the-badge&logo=googlechrome&logoColor=white)](https://wizops.fr)
+[![Site](https://img.shields.io/badge/wizops.fr-0B5563?style=for-the-badge&logo=googlechrome&logoColor=white)](https://wizops.fr)
 [![Prendre rendez-vous](https://img.shields.io/badge/Prendre_rendez--vous-F97316?style=for-the-badge&logo=googlecalendar&logoColor=white)](https://cal.com/julien-gourmelen-wizops)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/67925589)
 [![Email](https://img.shields.io/badge/contact@wizops.fr-555?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:contact@wizops.fr)
@@ -58,8 +58,14 @@ On construit votre infra **100 % en code**, puis on l'opère. **Sans changement 
 
 ## Nos produits
 
-- **[WizStatus](https://wizstatus.com)** : pages de statut et monitoring de disponibilité. Vos retours sont les bienvenus sur [wizstatus-feedback](https://github.com/wizops-cloud/wizstatus-feedback).
-- **[MongoAdmin](https://github.com/wizops-cloud/mongoAdmin-releases)** : un client MongoDB desktop, léger et rapide.
+- **[WizStatus](https://wizstatus.com)** : monitoring de sites, d'API et de services, avec alertes en temps réel et pages de statut. Vos retours sont les bienvenus sur [wizstatus-feedback](https://github.com/wizops-cloud/wizstatus-feedback).
+- **[MongoAdmin](https://mongoadmin.dev)** : un client MongoDB desktop natif, écrit en Rust, avec une offre gratuite. Téléchargements sur [mongoAdmin-releases](https://github.com/wizops-cloud/mongoAdmin-releases).
+
+## On partage ce qu'on sait
+
+[![Blog](https://img.shields.io/badge/Blog-300%2B_articles_DevOps_%26_Cloud-14918F?style=for-the-badge&logo=rss&logoColor=white)](https://wizops.fr/blog)
+
+Kubernetes, Terraform, observabilité, sécurité, FinOps, IA : plus de 300 articles techniques en français, tirés de nos missions.
 
 ## Ils nous font confiance
 
