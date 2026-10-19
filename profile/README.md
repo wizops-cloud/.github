@@ -61,6 +61,10 @@ On construit votre infra **100 % en code**, puis on l'opère. **Sans changement 
 - **[WizStatus](https://wizstatus.com)** : monitoring de sites, d'API et de services, avec alertes en temps réel et pages de statut. Vos retours sont les bienvenus sur [wizstatus-feedback](https://github.com/wizops-cloud/wizstatus-feedback).
 - **[MongoAdmin](https://mongoadmin.dev)** : un client MongoDB desktop natif, écrit en Rust, avec une offre gratuite. Téléchargements sur [mongoAdmin-releases](https://github.com/wizops-cloud/mongoAdmin-releases).
 
+## Open source
+
+- **[prometheus-ovh-exporter](https://github.com/wizops-cloud/prometheus-ovh-exporter)** : un exporter Prometheus pour OVHcloud. Facturation, consommation, quotas, instances, stockage et savings plans, prêts pour vos dashboards Grafana et votre suivi FinOps.
+
 ## On partage ce qu'on sait
 
 [![Blog](https://img.shields.io/badge/Blog-300%2B_articles_DevOps_%26_Cloud-14918F?style=for-the-badge&logo=rss&logoColor=white)](https://wizops.fr/blog)
