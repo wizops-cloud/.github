@@ -1,0 +1,90 @@
+name: Sentry release
+description: >-
+  Release Sentry du commit livré : source maps (debug IDs), commits associés,
+  finalisation et marque de déploiement. Ne bloque jamais une livraison : un
+  échec devient un avertissement.
+
+inputs:
+  auth-token:
+    description: Jeton d'organisation Sentry (scope org:ci).
+    required: true
+  projects:
+    description: Projets Sentry de la release, séparés par des espaces.
+    required: true
+  version:
+    description: Version de la release ; doit être la valeur `release` passée à Sentry.init.
+    default: ${{ github.sha }}
+  environment:
+    description: Environnement du déploiement.
+    default: production
+  sourcemaps:
+    description: >-
+      Dossiers de build à envoyer (séparés par des espaces), vides pour ne rien
+      envoyer. Les debug IDs y sont injectés avant l'envoi.
+    default: ""
+  sourcemaps-projects:
+    description: Projets qui reçoivent les source maps (défaut : tous les projets).
+    default: ""
+  delete-sourcemaps:
+    description: Supprimer les fichiers .map après l'envoi, pour ne pas les servir.
+    default: "true"
+  deploy:
+    description: Déclarer un déploiement (false pour une build non livrée).
+    default: "true"
+  url:
+    description: Adresse du serveur Sentry.
+    default: https://sentry.wizops.cloud
+  org:
+    description: Organisation Sentry.
+    default: wizops
+  cli-version:
+    description: Version de @sentry/cli.
+    default: 3.8.1
+
+runs:
+  using: composite
+  steps:
+    - name: Release Sentry
+      shell: bash
+      env:
+        SENTRY_AUTH_TOKEN: ${{ inputs.auth-token }}
+        SENTRY_URL: ${{ inputs.url }}
+        SENTRY_ORG: ${{ inputs.org }}
+        VERSION: ${{ inputs.version }}
+        ENVIRONMENT: ${{ inputs.environment }}
+        PROJECTS: ${{ inputs.projects }}
+        SOURCEMAPS: ${{ inputs.sourcemaps }}
+        SOURCEMAPS_PROJECTS: ${{ inputs.sourcemaps-projects }}
+        DELETE_SOURCEMAPS: ${{ inputs.delete-sourcemaps }}
+        DEPLOY: ${{ inputs.deploy }}
+        CLI: npx --yes @sentry/cli@${{ inputs.cli-version }}
+      run: |
+        if [ -z "$SENTRY_AUTH_TOKEN" ]; then
+          echo "::warning::Jeton Sentry absent : release $VERSION non créée."
+          exit 0
+        fi
+        warn() { echo "::warning::Sentry : $1"; }
+        project_args() { for p in $1; do printf -- '-p %s ' "$p"; done; }
+
+        if [ -n "$SOURCEMAPS" ]; then
+          targets="${SOURCEMAPS_PROJECTS:-$PROJECTS}"
+          for dir in $SOURCEMAPS; do
+            $CLI sourcemaps inject "$dir" || warn "injection des debug IDs impossible dans $dir"
+            for p in $targets; do
+              $CLI sourcemaps upload --release "$VERSION" -p "$p" "$dir" || warn "envoi des source maps de $dir vers $p impossible"
+            done
+            if [ "$DELETE_SOURCEMAPS" = "true" ]; then
+              find "$dir" -name '*.map' -type f -delete
+            fi
+          done
+        fi
+
+        # shellcheck disable=SC2046 # une option -p par projet
+        $CLI releases new "$VERSION" $(project_args "$PROJECTS") || { warn "création de la release $VERSION impossible"; exit 0; }
+        $CLI releases set-commits "$VERSION" --auto --ignore-missing \
+          || $CLI releases set-commits "$VERSION" --local --ignore-missing \
+          || warn "commits non associés à $VERSION"
+        $CLI releases finalize "$VERSION" || warn "finalisation de $VERSION impossible"
+        if [ "$DEPLOY" = "true" ]; then
+          $CLI releases deploys "$VERSION" new -e "$ENVIRONMENT" || warn "déploiement de $VERSION non déclaré"
+        fi
