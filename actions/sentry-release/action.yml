@@ -23,7 +23,7 @@ inputs:
       envoyer. Les debug IDs y sont injectés avant l'envoi.
     default: ""
   sourcemaps-projects:
-    description: Projets qui reçoivent les source maps (défaut : tous les projets).
+    description: "Projets qui reçoivent les source maps (défaut : tous les projets)."
     default: ""
   delete-sourcemaps:
     description: Supprimer les fichiers .map après l'envoi, pour ne pas les servir.
